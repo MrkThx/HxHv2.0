@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "UTF-8"></meta>
+        <title>建立貼文</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel= "stylesheet" href= "post2.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="body">
+        <div  id = "head">
+            <img src = "./pic/title.svg" id="title"/>
+        </div>
+        <div id = "head2">
+            <img src = "./pic/establish.svg" id="establish"/>
+        </div>
+        
+        <div id = "post_region">
+            <form id = "pic_region">
+                <input type="text" value="請輸入圖片位址" id="pic_input">
+            </form>
+            <form id ="introduction_region">
+                <input type="text" value="說明..." id="introduction_input">
+            </form>
+            
+            <div id="kind">
+                <span id="kind_text">&nbsp&nbsp類型</span>
+                <img src="./pic/bando2.png" id="bando">
+                <img src="./pic/drink.png" id="drink">
+                <img src="./pic/other.png" id="other">
+            </div>
+            <div id="kind2">
+                <img src="./pic/meat2.png" id="meat">
+                <img src="./pic/vegetable.png" id="vegetable">
+            </div>
+
+            <div id="position1">
+                <span id="position_text">&nbsp&nbsp位置</span>
+                <form id = "position_region">
+                    <input type="text" value="令洋廳門口" id="position_input">
+                </form>
+            </div>
+            <div id="position2">
+                <span id="position2_1" class="position2_all">力行校區</span>
+                <span id="position2_2" class="position2_all">成杏校區</span>
+                <span id="position2_3" class="position2_all">自強校區</span>
+                <span id="position2_4" class="position2_all">勝利校區</span>
+                <span id="position2_5" class="position2_all">光復校區</span>
+                <span id="position2_6" class="position2_all">敬業校區</span>
+                <span id="position2_7" class="position2_all">成功校區</span>
+                <span id="position2_8" class="position2_all">東寧校區</span>
+            </div>
+        </div>
+
+        <div id = "bottom"></div>
+        <script src= "post2.js"></script>
+    </body>
+    
+</html>

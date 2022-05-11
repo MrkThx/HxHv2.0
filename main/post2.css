@@ -1,0 +1,264 @@
+#body {
+    height: 1335px;
+    width: 100%;
+}
+#head {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 7%;
+}
+#title {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#head2 {
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    width: 100%;
+    height: 17%;
+}
+#establish {
+    position: absolute;
+    width: 30%;
+    left: 6%;
+}
+
+#post_region {
+    background: url("./pic/gray_background.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 12%;
+}
+#bottom {
+    background: url("./pic/post_button.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 90%;
+}
+#pic_region {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 5%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+#pic_input {
+    position: absolute;
+    font-size: 48px;
+    font-family: "微軟正黑體";
+    border: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+}
+#introduction_region {
+    position: absolute;
+    width: 90%;
+    height: 24%;
+    left: 5%;
+    top: 17%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+#introduction_input {
+    position: absolute;
+    font-size: 48px;
+    font-family: "微軟正黑體", sans-serif;
+    border: 0px;
+    padding: 0px;
+    height: 50%;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+}
+#kind {
+    position: absolute;
+    width: 90%;
+    height: 11.5%;
+    left: 5%;
+    top: 43%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+#kind_text {
+    position: absolute;
+    font-family:Microsoft JhengHei;
+    font-size: 30px;
+    top: 36%;
+    left: 5%;
+    color: #234F2D;
+    font-weight: 999;
+}
+#bando {
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    left: 29%;
+}
+#drink {
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    right: 29%;
+}
+#other {
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    right: 3%;
+}
+
+
+#kind2 {
+    position: absolute;
+    width: 90%;
+    height: 12.5%;
+    left: 5%;
+    top: 56%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+#meat {
+    position: absolute;
+    width: 46%;
+    height: 90%;
+    left: 2%;
+    top: 5%;
+}
+#vegetable {
+    position: absolute;
+    width: 46%;
+    height: 90%;
+    right: 2%;
+    top: 5%;
+}
+#position1 {
+    position: absolute;
+    width: 90%;
+    height: 6%;
+    left: 5%;
+    top: 70.5%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+#position_text {
+    position: absolute;
+    font-family:"Microsoft JhengHei", sans-serif;
+    font-size: 30px;
+    top: 28%;
+    left: 5%;
+    color: #234F2D;
+    font-weight: 999;
+}
+#position_region {
+    background-image: url("./pic/position_background.svg");
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 18%;
+    top: 10%;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0px;
+}
+#position_input {
+    position: absolute;
+    font-size: 30px;
+    font-family: "微軟正黑體", sans-serif;
+    background-color: #F0F0F0;
+    border: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 80%;
+    top: 0%;
+    left: 5%;
+}
+#position2 {
+    position: absolute;
+    width: 90%;
+    height: 12%;
+    left: 5%;
+    top: 79%;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+.position2_all {
+    background-color: #F0F0F0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 22%;
+    height: 45%;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-family: "微軟正黑體", sans-serif;
+    color: #234F2D;
+    font-weight: 800;
+    text-align: center;
+    line-height: 70px;
+}
+#position2_1 {
+    left: 2%;
+    top: 4.5%;
+    background-color: #234F2D;
+    color: #F0F0F0;
+}
+#position2_2 {
+    left: 26.5%;
+    top: 4.5%;
+}
+#position2_3 {
+    right: 26.5%;
+    top: 4.5%;
+}
+#position2_4 {
+    right: 2%;
+    top: 4.5%;
+}
+#position2_5 {
+    left: 2%;
+    bottom: 4.5%;
+}
+#position2_6 {
+    left: 26.5%;
+    bottom: 4.5%;
+}
+#position2_7 {
+    right: 26.5%;
+    bottom: 4.5%;
+}
+#position2_8 {
+    right: 2%;
+    bottom: 4.5%;
+}
